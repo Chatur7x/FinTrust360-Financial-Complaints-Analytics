@@ -10,7 +10,7 @@ Analytics project using 5,000 fictional financial-service complaint records. Exa
 - `complaint_analysis.sql` — 11 explained SQLite-compatible analysis queries.
 - `analysis_findings.md` and `analysis_report.pdf` — five findings and three practical recommendations.
 - `FinTrust_360.pbix` — native Power BI Desktop report with five KPI cards, four required charts, and date, company, and product slicers.
-- `actual_powerbi_screenshot.png` — screenshot captured from the reopened Power BI Desktop report.
+- `actual_powerbi_screenshot.jpg` — genuine screenshot captured from the reopened Power BI Desktop report.
 - `interactive_dashboard.html` — self-contained companion dashboard with interactive filters and charts.
 - `POWERBI_BUILD_SPEC.md` and `POWERBI_STATUS.md` — report specification and validation notes.
 - `AI_USAGE.md` — AI assistance and verification record.

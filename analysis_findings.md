@@ -26,8 +26,4 @@ Analysis uses the supplied fictional complaint file, dated 2025-10-01 to 2026-10
 
 ## Power BI companion dashboard
 
-A self-contained interactive companion dashboard is included as `interactive_dashboard.html`. It provides date, company, and product filters, the five required KPIs, monthly complaint trends, product and issue distributions, and company timely-response rates. The screenshot is a browser capture of that dashboard. The included PBIX was not verified in the installed Desktop build; see `POWERBI_STATUS.md`.
-
-## Power BI handoff
-
-Create a report page with cards for total, open, closed, timely response rate, and average response days; a monthly line chart; product and issue bars; and a company timely-rate bar chart. Add slicers for date received, company, and product. Use a date table related to `date_received`. For company timeliness, keep the measure denominator restricted to closed cases. The supplied data contains no customer satisfaction field and no company-size denominators.
+A native Power BI Desktop report is included as `FinTrust_360.pbix`. It was reopened from the project folder and contains the five KPI cards, monthly trend, product and issue charts, company timely-response chart, and date, company, and product slicers. The genuine Desktop capture is `actual_powerbi_screenshot.jpg`. `interactive_dashboard.html` is a separate interactive companion with the same key filters and charts. Power BI abbreviates the total and closed count cards to `5K`; their exact measures are 4,975 and 4,665. The company response-rate measure excludes open complaints. As described above, complaint counts are not adjusted for company size, and timeliness does not establish customer satisfaction.
