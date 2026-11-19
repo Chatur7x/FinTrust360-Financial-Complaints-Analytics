@@ -1,15 +1,15 @@
 # Power BI deliverables status
 
-## Model
+## Native report
 
-`FinTrust_360.pbix` is a native Power BI Desktop file with the imported cleaned complaint table. The live Desktop session was updated with five measures and the DAX results were verified: 4,975 total; 310 open; 4,665 closed; 90.075% timely among closed complaints; and 8.7638 average response days among closed complaints. The live measures could not be saved back to the included file during this session, so the packaged PBIX should be treated as an earlier model snapshot.
+`FinTrust_360.pbix` is a native Power BI Desktop report. It was saved to the project folder and reopened from that path to confirm the report page and visuals load. The report contains five KPI cards (total, open, closed, timely response rate, and average response time), a monthly complaint trend line chart, product and issue bar charts, a company timely-response chart, and slicers for received date, company, and product.
 
-## Report visuals and validation
-
-The report canvas is not complete: it does not yet contain the required KPI cards, charts, and interactive slicers. A duplicate-measure-name dialog is blocking report editing. The included PBIX has not been reopened from disk for a clean-open check after the live model edits. Do not describe it as a verified complete interactive Power BI report.
-
-`interactive_dashboard.html` is a separate browser dashboard with date, company, and product filters and the requested charts. It is useful for review but does not replace the required Power BI report.
+The response measures exclude open complaints. Verified unfiltered values are 4,975 total complaints, 310 open, 4,665 closed, 90.075% timely among closed complaints, and 8.7638 average response days among closed complaints. Power BI's card display abbreviates the two counts near 5,000 as `5K`; the exact values are available in the model and supporting KPI summary.
 
 ## Screenshot
 
-`actual_powerbi_screenshot.png` is a screenshot of the browser dashboard, not Power BI Desktop. A genuine Power BI Desktop report screenshot remains outstanding until the native canvas is completed.
+`actual_powerbi_screenshot.png` is a capture of the reopened report in Power BI Desktop, not the companion browser dashboard. The interactive HTML is supplied separately as a reviewable companion.
+
+## Scope notes
+
+The report uses the supplied fictional records. Company complaint counts are not normalized by company size, and timely response is not a measure of satisfaction or resolution quality.
