@@ -5,14 +5,14 @@ Analytics project using 5,000 fictional complaint records. Cleaning exact duplic
 ## Deliverables
 
 - `lecture-file.csv` — original source data.
-- `cleaned_complaints.csv` and `cleaned_complaints.xlsx` — cleaned unique records; workbook also has the cleaning log and KPI summary.
+- `cleaned_complaints.csv` and `cleaned_complaints.xlsx` — cleaned unique records; workbook includes cleaning log and KPI summary.
 - `cleaning_log.md` — cleaning and validation decisions.
 - `complaint_analysis.sql` — 11 explained SQLite-compatible queries.
 - `analysis_findings.md` and `analysis_report.pdf` — five findings and three recommendations.
-- `interactive_dashboard.html` — self-contained browser dashboard with date, company, and product filters; five KPIs; and complaint trend/product/issue/company charts.
-- `actual_powerbi_screenshot.png` — screenshot of the browser dashboard. It is not a Power BI Desktop screenshot.
-- `FinTrust_360.pbix` — saved file currently under validation; consult `POWERBI_STATUS.md` before treating it as a valid native report.
-- `POWERBI_BUILD_SPEC.md` — Power BI model, measures, visual and slicer specification.
+- `interactive_dashboard.html` — self-contained browser dashboard with date, company, and product filters, five KPIs, and charts.
+- `FinTrust_360.pbix` — native Power BI file with imported data; it is an earlier model snapshot and has no completed report visuals. See `POWERBI_STATUS.md`.
+- `actual_powerbi_screenshot.png` — browser dashboard capture, not a Power BI Desktop screenshot. A genuine Power BI report capture remains outstanding.
+- `POWERBI_BUILD_SPEC.md` — Power BI visuals, slicers, and measure specification.
 - `AI_USAGE.md` — AI assistance and verification record.
 
 ## Verified headline KPIs
