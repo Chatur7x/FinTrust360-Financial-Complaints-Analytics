@@ -1,9 +1,13 @@
-# AI usage and verification
+# AI Usage
 
-AI assistance supported profiling and cleaning the fictional complaint CSV, drafting SQL, calculating summary statistics, writing findings and recommendations, preparing the companion dashboard, and editing documentation.
+I used AI as a support tool while completing this project. It helped me review and clean the fictional complaint data, draft SQL queries, check summary calculations, shape the findings and recommendations, prepare the companion dashboard, and edit project documentation. I reviewed the outputs and verified the results before including them.
 
-Verification covered source and cleaned row counts, duplicate IDs, missing-state handling, product category normalization, date parsing and order, response-date/status consistency, timeliness against response and due dates, and recalculation of the headline KPIs. The SQL queries were executed against the cleaned data. The Power BI report was saved and reopened from the project folder in Power BI Desktop; its five KPI cards, four charts, and three slicers were confirmed on the report page. `actual_powerbi_screenshot.jpg` was captured from Power BI Desktop.
+## What I verified
 
-Verified unfiltered measures: 4,975 total, 310 open, 4,665 closed, 90.075% timely among closed complaints, and 8.7638 average response days among closed complaints. Power BI's KPI cards abbreviate total and closed counts to `5K`; exact values are listed in the README and workbook.
+- The original and cleaned record counts, duplicate complaint IDs, missing locations, product categories, and date consistency.
+- Response status and response dates, including the timely-response flag.
+- The 11 SQL queries against the cleaned data.
+- The Power BI report in Desktop, including its KPIs, charts, and slicers.
+- The headline figures: 4,975 complaints, 310 open, 4,665 closed, 90.075% timely among closed complaints, and 8.7638 average response days among closed complaints.
 
-Limitations: records and organizations are fictional. Counts are not adjusted for company size. Satisfaction and resolution quality are not supplied, so timeliness should not be treated as a customer satisfaction measure.
+Power BI displays the total and closed complaint cards as `5K`; the exact counts are recorded above and in the workbook. The records and organizations are fictional. Complaint counts are not adjusted for company size, and the dataset does not measure customer satisfaction or resolution quality.
